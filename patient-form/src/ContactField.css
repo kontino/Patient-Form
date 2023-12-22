@@ -1,0 +1,37 @@
+.contactField{
+    display: inline;
+    margin-bottom: 8px;
+    width: 60%;
+}
+
+.contactField input, .contactField textarea{
+    font-family: 'Raleway';
+    background-color: rgb(253, 253, 253);
+    color: rgb(181, 181, 181);
+    border-style: none;
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 12px 8px 12px 8px;
+    width: 100%;
+}
+
+.contactField input:focus {
+    color:black;
+
+}
+
+.contactField input::content {
+    color:black;
+
+}
+
+.contactField h2{
+    margin-bottom: 8px;
+    color: rgb(47, 101, 89);
+    font-weight: 300;
+}
+
+.contactField textarea{
+    resize: none;
+}
+
